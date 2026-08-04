@@ -1,6 +1,6 @@
 [package]
 name = "better-auth-hca"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2024"
 description = "Hack Club Auth integration with the better-auth-rs crate"
 repository = "https://github.com/Shuflduf/better-auth-hca"
@@ -8,4 +8,8 @@ license = "GPL-3.0-or-later"
 keywords = ["auth", "hackclub"]
 
 [dependencies]
-better-auth = "0.10"
+better-auth = {
+  version = "0.10",
+  default-features = false,
+  features = ["rustls"]
+}
