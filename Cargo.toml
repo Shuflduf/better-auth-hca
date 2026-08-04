@@ -1,6 +1,6 @@
 [package]
 name = "better-auth-hca"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 description = "Hack Club Auth integration with the better-auth-rs crate"
 repository = "https://github.com/Shuflduf/better-auth-hca"
