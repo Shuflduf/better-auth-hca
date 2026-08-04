@@ -2,6 +2,10 @@
 name = "better-auth-hca"
 version = "0.1.0"
 edition = "2024"
+description = "Hack Club Auth integration with the better-auth-rs crate"
+repository = "https://github.com/Shuflduf/better-auth-hca"
+license = "GPL-3.0-or-later"
+keywords = ["auth", "hackclub"]
 
 [dependencies]
 better-auth = "0.10"
