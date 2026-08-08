@@ -16,7 +16,6 @@ pub fn oauth(client_id: impl Into<String>, client_secret: impl Into<String>) -> 
             .collect(),
         map_user_info: |v| {
             let identity = &v["identity"];
-            println!("{identity:?}");
             Ok(OAuthUserInfo {
                 id: identity["id"].as_str().ok_or("Missing ID")?.to_string(),
                 email: identity["primary_email"]
